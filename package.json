@@ -1,0 +1,18 @@
+{
+  "name": "luarunner",
+  "main": "./lib/luarunner",
+  "version": "0.5.0",
+  "description": "Runs lua code on windows",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": "luarunner:toggle"
+  },
+  "repository": "https://github.com/shenfll/luarunner",
+  "license": "BSD",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "child_process": "*"
+  }
+}
